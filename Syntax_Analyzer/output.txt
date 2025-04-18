@@ -1,0 +1,25 @@
+AST:
+                                       =
+                   /                                        \
+                   id                                       +
+                                                  /                   \
+                                                 num                  *
+                                                                 /         \
+                                                                num       num
+
+AST:
+                                       =
+                   /                                        \
+                   id                                       ^
+                                                  /                   \
+                                                  +                  num
+                                             /         \
+                                            num       num
+
+AST:
+                                       =
+                   /                                        \
+                   id                                       +
+                                                  /                   \
+                                                  id                  id
+
